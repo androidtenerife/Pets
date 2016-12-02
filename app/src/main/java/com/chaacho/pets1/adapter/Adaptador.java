@@ -1,4 +1,4 @@
-package com.chaacho.pets1;
+package com.chaacho.pets1.adapter;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,6 +10,10 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.chaacho.pets1.Detalle;
+import com.chaacho.pets1.poyo.Mascota;
+import com.chaacho.pets1.R;
 
 import java.util.ArrayList;
 

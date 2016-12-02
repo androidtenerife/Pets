@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.chaacho.pets1.fragment.Perfil">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@id/cvImgFoto"
+        android:layout_width="144dp"
+        android:layout_height="133dp"
+        android:src="@drawable/dog1"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#8BC34A"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextNombre"
+
+        android:layout_below="@id/cvImgFoto"
+        android:layout_centerHorizontal="true"
+        android:text="Juanmana"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <android.widget.GridLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/misMascotas"
+        android:layout_marginTop="250dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="60dp"
+            app:srcCompat="@drawable/dog1"
+            android:id="@+id/cvMascota"
+            android:layout_height="60dp"
+            android:padding="10dp" />
+
+    </android.widget.GridLayout>
+
+
+</RelativeLayout>

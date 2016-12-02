@@ -12,12 +12,15 @@
     <string name="mensaje">mensaje</string>
     <string name="enviar_comentario">Enviar Comentario</string>
     <string name="Nombre">Nombre</string>
-    <string name="TextoDan">Herbert Rodriguez programador Java desde hace ya varios años. Es un apasionado de las nuevas tecnologías: Diseño UX, Python, Ajax, Django o JQuery, Html y bases de datos SQL y SQLite. Constantemente actualizando su formación, actualmente Desarrollador de aplicaciones Android. Puedes contactarle en https://es.linkedin.com/in/android-developer-1010</string>
+    <string name="TextoDan">Herbert Rodriguez programador Java desde hace ya varios años. Es un apasionado de las nuevas tecnologías: Diseño UX, Python, Ajax, Django o JQuery, Html y bases de datos SQL y SQLite. Constantemente actualizando su formación, actualmente se prepara como Desarrollador de aplicaciones Android.                                    https://es.linkedin.com/in/android-developer-1010</string>
     <string name="herbert_rodriguez">HERBERT
         RODRIGUEZ</string>
     <string name="Enviar_comentario">Enviar Comentario</string>
     <string name="boton">Boton</string>
     <string name="rating">Rating</string>
     <string name="textview">TextView</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

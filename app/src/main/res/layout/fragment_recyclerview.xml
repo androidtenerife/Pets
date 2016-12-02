@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chaacho.pets1.fragment.RecyclerViewFragment">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/miApbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+    <android.support.design.widget.TabItem
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/search_mag_icon"
+        android:background="@color/colorPrimary"></android.support.design.widget.TabItem>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvMascota">
+
+    </android.support.v7.widget.RecyclerView>
+</FrameLayout>
